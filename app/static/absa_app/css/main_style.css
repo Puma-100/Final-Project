@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css?family=Marcellus|Sorts+Mill+Goudy|Quattrocento");
+
+/******************** NAVBAR CSS *********************/
+
+.navbar {
+  padding: 8rem;
+  font-size: 16pt;
+
+}
+
+
+.navbar-brand {
+  font-size: 1.6rem !important;
+  font-family: 'Quattrocento', serif !important;
+
+}
+
+.navbar-nav li {
+  padding-right: 20px;
+  font-size: 14pt;
+  font-family: 'Marcellus', serif !important;
+
+}
+
+.navbar-light {
+  background-color: black;
+}
+
+/***************** HOME PAGE CSS ********************/
+
+.text-box-padding {
+  padding-top: 100px;
+}
+
+.prediction-padding {
+  padding-top: 30px;
+}
+
+.section-header {
+  font-family: 'Marcellus', serif !important;
+}
+
+
+/***************** ABOUT PAGE CSS ********************/
+
+.about-padding {
+  padding-top: 50px;
+}
+
+/***************** LEARNING NLP ********************/
+
+.learning-padding {
+  padding-top: 50px;
+}
+
+.series-breakers {
+    border: 1.5px solid black;
+}
+
+.video-dimensions {
+    width: 100%;
+    height: 100%;
+}
+
+
+/***************** CONNECT PAGE CSS ********************/
+.connect-padding {
+  padding-top: 60px;
+}
+
+/****************** FOOTER ********************/
+.nav li a {
+    font-size: 14pt;
+    color: black;
+    padding-top: 50px;
+    font-family: 'Marcellus', serif !important;
+}
+
+.copyrights {
+  font-size: 14pt;
+  font-family: 'Marcellus', serif !important;
+}

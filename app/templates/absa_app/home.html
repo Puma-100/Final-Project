@@ -3,11 +3,24 @@
 
 {% block content %}
 
+<section class="container">
 
-<div>
-    
+
+<div class="text-box-padding text-center">
+    <p class="lead"> Enter your text to understand sentiment: </p>
+      <form action="" method="post">
+          {% csrf_token %}
+          {{ textform.as_p }}
+       <button class="btn btn-secondary lead" type="submit" name="button">Submit</button>
+      </form>
 </div>
-    
+
+
+<div class="container prediction-padding text-center lead">
+    <p>{{ value }}</p>
+</div>
+
+</section>
 
 
 
