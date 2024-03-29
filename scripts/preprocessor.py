@@ -76,4 +76,3 @@ class Preprocessor:
 
 
 print(Preprocessor().preprocess('this is my example text'))
-åß
