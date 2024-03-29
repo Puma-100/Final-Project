@@ -70,9 +70,4 @@ class Preprocessor:
         self.replace_num_with_words()
         # self.correct_spelling()
         self.lemmatize_text()
-        return self.text
-
-
-
-
-print(Preprocessor().preprocess('this is my example text'))
+        return self.text.lower()
